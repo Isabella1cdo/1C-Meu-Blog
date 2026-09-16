@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+    <style>
+        header{
+            background-color: #832828;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+         article{
+            display: flex;
+         }
+        main{
+            background-color: #FFFFFF;
+            color: #832828;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+ 
+        }
+         img{
+            width: 80px;
+            height: 80px;
+         }
+         .artigo-autor {
+            font-weight: bold;
+         }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>Fora do octógono</h1>
+            <p>vou compartilhar minhas experiências de preparação antes da luta </p>
+        </header>
+         <main>
+             <article>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div>
+    
+                    <h2>Meu primeiro post</h2>
+                    <p class="artigo-autor">Por: Isabella Castro</p> 
+                    <p>Bem vindo ao meu mundo! Aqui eu vou contar sobre as experiências que já tive antes de subir no octógno.
+                    <button>❤‍🔥<span>0</span></button>
+                    <button>👏<span>0</span></button>
+                    
+                    </div>
+
+            </article>
+            <div>
+
+                <h2>Corte de peso</h2>
+                <p class="artigo-autor">Por: Isabella Castro</p> 
+                <p>O corte de peso em atletas de luta é o processo de reduzir rapidamente o peso corporal antes de uma competição para se enquadrar em determinada categoria. Geralmente envolve ajustes na alimentação, redução de líquidos e, em alguns casos, desidratação. Embora possa proporcionar vantagem física após a pesagem, métodos extremos podem causar desidratação, perda de desempenho, alterações cardiovasculares e riscos à saúde. Por isso, o corte deve ser planejado com acompanhamento de profissionais, priorizando estratégias seguras e uma recuperação adequada após a pesagem. Esse processo exige muito mais além do corpo, mas também a mente. A desidratação é um processo que acontece geralmente de 2 a 3 dias antes da luta e é bem mais desgastante do que uma perca de peso em meses, pois nesses três dias você não pensa em nada mais além de beber e comer. Os treinos nesses dias são focados em movimentações toda hora para o corpo conseguir suar o máximo para evitar fazer a sauna que leva o corpo ao extremo e pode ser perigoso. O corte de peso não é recomendado para quem não é atleta ou tem o compromisso com a balança de poucos minutos.</p>
+                <button>❤‍🔥<span>0</span></button>
+                <button>👏<span>0</span></button>
+                
+                </div>
+
+        </main>
+    </body>
+    <script>
+        const botoes = document.querySelectorAll("button");
+
+        botoes.forEach( function(botao){
+            let curtiu = false;
+            botao.addEventListener("click",botaoClicado);
+            function botaoClicado(){
+                console.log("fui clicado");
+                let texto = botao.querySelector("span");
+                if (curtiu == false){
+                    texto.textContent++;
+                    curtiu = true;
+            } else {
+                texto.textContent--;
+                curtiu = false;
+            }
+            } 
+
+            }
+        )
+
+
+    </script>
+</html>
