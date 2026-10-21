@@ -22,10 +22,9 @@
         }
 
          article{
-
             display: flex;
 
-            border: 1px solid #832828 ;
+            border: 1px solid #832828;
             margin: 16px;
             gap: 16px;
             padding: 16px;
@@ -37,6 +36,7 @@
             text-align: center;
             justify-content: center;
          }
+         
          img{
             width: 80px;
             height: 80px;
